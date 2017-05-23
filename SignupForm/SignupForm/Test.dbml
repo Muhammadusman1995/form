@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="URI" Class="TestDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=MUHAMMADUSMAN;Initial Catalog=URI;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="URIConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Users" Member="tbl_Users">
+    <Type Name="tbl_User">
+      <Column Name="User_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Fullname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_campus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Department" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Degree" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_session" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Enrollment" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_loginID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_CreatedBY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="User_Createdon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
